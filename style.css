@@ -1,20 +1,22 @@
 @media(max-width: 636px){
-    h1{
-        color: #FFFFFF;
-        font-family: Righteous;
-    }
-
-    span{
-        color: #FFFFFF;
-    }
-    .topo{
-        width: 100%;
-        background-color: red;
-        display: flex;
+    .topo {
         padding-left: 10px;
-
+        background-color: red;
+        width: 100%;
         position: fixed;
         top: 0;
         left: 0;
-    }
+      }
+    
+      .topo :nth-child(1) {
+        font-family: "Righteous";
+        font-size: 44px;
+        color: #ffffff;
+      }
+    
+      .topo :nth-child(2) {
+        font-family: "Roboto";
+        font-size: 18px;
+        color: #ffffff;
+      }
 }
