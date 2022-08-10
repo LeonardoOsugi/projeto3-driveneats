@@ -1,0 +1,20 @@
+@media(max-width: 636px){
+    h1{
+        color: #FFFFFF;
+        font-family: Righteous;
+    }
+
+    span{
+        color: #FFFFFF;
+    }
+    .topo{
+        width: 100%;
+        background-color: red;
+        display: flex;
+        padding-left: 10px;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+}
