@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
 </head>
@@ -31,7 +34,7 @@
                 <div class="content flango" onclick="opcao('.flango')">
                     <img src="./img/frango_yin_yang 1.svg"/>
                     <div class="food">
-                        <strong>Frango yin yang</strong>
+                        <strong class="nome-prato">Frango yin yang</strong>
                     </div>
                     <div class="food-description">
                        <div>
@@ -43,7 +46,7 @@
                        <div class="ladinho">
                             <div class="money">
                                 <div>
-                                    <strong>R$14,90</strong>
+                                    <strong>R$<span class="valor-prato">12,50</span></strong>
                                 </div>
                              </div>
                              <div >
@@ -57,7 +60,7 @@
                 <div class="content hamburgao" onclick="opcao('.hamburgao')">
                     <img src="./img/frango_yin_yang 1.svg"/>
                     <div class="food">
-                        <strong>Hamburgão</strong>
+                        <strong class="nome-prato">Hamburgão</strong>
                     </div>
                     <div class="food-description">
                        <div>
@@ -69,7 +72,7 @@
                        <div class="ladinho">
                             <div class="money">
                                 <div>
-                                    <strong>R$14,90</strong>
+                                    <strong>R$<span class="valor-prato">20,90</span></strong>
                                 </div>
                              </div>
                              <div >
@@ -83,7 +86,7 @@
                 <div class="content pastel" onclick="opcao('.pastel')">
                     <img src="./img/frango_yin_yang 1.svg"/>
                     <div class="food">
-                        <strong>Pastelzaum da Massa</strong>
+                        <strong class="nome-prato">Pastelzaum da Massa</strong>
                     </div>
                     <div class="food-description">
                        <div>
@@ -92,7 +95,7 @@
                        <div class="ladinho">
                             <div class="money">
                                 <div>
-                                    <strong>R$14,90</strong>
+                                    <strong>R$<span class="valor-prato">30,90</span></strong>
                                 </div>
                              </div>
                              <div class="confirmado">
@@ -115,7 +118,7 @@
                 <div class="content2 cocada-bobao" onclick="opcao2('.cocada-bobao')">
                     <img src="./img/coquinha_gelada 2.svg" />
                     <div class="food">
-                        <strong>Coquinha gelada</strong>
+                        <strong class="nome-bebida">Coquinha gelada</strong>
                     </div>
                     <div class="food-description">
                         <div>
@@ -124,7 +127,7 @@
                         <div class="ladinho">
                              <div class="money">
                                  <div>
-                                     <strong>R$14,90</strong>
+                                     <strong>R$<span class="valor-berita">10,90</span></strong>
                                  </div>
                              </div>
                              <div class="confirmado">
@@ -136,7 +139,7 @@
                 <div class="content2 coca-fanta" onclick="opcao2('.coca-fanta')">
                     <img src="./img/coquinha_gelada 2.svg" />
                     <div class="food">
-                        <strong>Fanta gelada</strong>
+                        <strong class="nome-bebida">Fanta gelada</strong>
                     </div>
                     <div class="food-description">
                         <div>
@@ -145,7 +148,7 @@
                         <div class="ladinho">
                              <div class="money">
                                  <div>
-                                     <strong>R$14,90</strong>
+                                     <strong>R$<span class="valor-berita">14,90</span></strong>
                                  </div>
                              </div>
                              <div class="confirmado">
@@ -157,7 +160,7 @@
                 <div class="content2 whisky" onclick="opcao2('.whisky')">
                     <img src="./img/coquinha_gelada 2.svg" />
                     <div class="food">
-                        <strong>Jackie Daniels</strong>
+                        <strong class="nome-bebida">Jackie Daniels</strong>
                     </div>
                     <div class="food-description">
                         <div>
@@ -166,7 +169,7 @@
                         <div class="ladinho">
                              <div class="money">
                                  <div>
-                                     <strong>R$14,90</strong>
+                                     <strong>R$<span class="valor-berita">99,90</span></strong>
                                  </div>
                              </div>
                              <div class="confirmado">
@@ -188,7 +191,7 @@
                     <div class="width">
                         <img src="./img/pudim 1.svg" />
                         <div class="food">
-                            <strong>Pudim</strong>
+                            <strong class="nome-sobremesa">Pudim</strong>
                         </div>
                         <div class="food-description">
                             <div>
@@ -197,7 +200,7 @@
                             <div class="ladinho">
                                  <div class="money">
                                      <div>
-                                         <strong>R$14,90</strong>
+                                         <strong>R$<span class="valor-sobremesa">14,90</span></strong>
                                      </div>
                                  </div>
                                  <div class="confirmado">
@@ -211,7 +214,7 @@
                     <div class="width">
                         <img src="./img/pudim 1.svg" />
                         <div class="food">
-                            <strong>Pudim</strong>
+                            <strong class="nome-sobremesa">Brigadeiro</strong>
                         </div>
                         <div class="food-description">
                             <div>
@@ -220,7 +223,7 @@
                             <div class="ladinho">
                                  <div class="money">
                                      <div>
-                                         <strong>R$14,90</strong>
+                                         <strong>R$<span class="valor-sobremesa">20,90</span></strong>
                                      </div>
                                  </div>
                                  <div class="confirmado">
@@ -234,7 +237,7 @@
                     <div class="width">
                         <img src="./img/pudim 1.svg" />
                         <div class="food">
-                            <strong>Pudim</strong>
+                            <strong class="nome-sobremesa">Muse do Muzy</strong>
                         </div>
                         <div class="food-description">
                             <div>
@@ -243,7 +246,7 @@
                             <div class="ladinho">
                                  <div class="money">
                                      <div>
-                                         <strong>R$14,90</strong>
+                                         <strong>R$<span class="valor-sobremesa">14,90</span></strong>
                                      </div>
                                  </div>
                                  <div class="confirmado">
@@ -256,13 +259,9 @@
             </div>
         </div>
         <div class="ultima-parada">
-            <button class="pedido" onclick="enviar()">
-                <div class="botao-final">
+            <button class="pedido" onclick="enviarZap()">
                     Selecione os 3 itens
-                </div>
-                <div class="botao-final">
                     para fechar o pedido
-                </div>
             </button>
         </div>
     </div>

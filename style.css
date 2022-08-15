@@ -3,7 +3,8 @@
     box-sizing: border-box;
   }
     body{
-        background-color: #E5E5E5;
+      font-family: 'Encode Sans', sans-serif;
+      background-color: #E5E5E5;
     }
 
     .topo {
@@ -18,13 +19,13 @@
       }
     
       .topo :nth-child(1) {
-        font-family: Righteous;
+        font-family: 'Righteous';
         font-size: 44px;
         color: #ffffff;
       }
     
       .topo :nth-child(2) {
-        font-family: Roboto;
+        font-family: 'Roboto';
         font-size: 18px;
         color: #ffffff;
       }
@@ -207,4 +208,16 @@
         font-size: 20px;
         
       }
+
+      .background-botao{
+        background: #32B72F;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+        color: #FFFFFF;
+      }
+      
 }
